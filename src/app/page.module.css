@@ -1,0 +1,124 @@
+.defaultPageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+  font-size: 2em;
+  text-wrap: wrap;
+  line-height: 60px;
+  text-align: center;
+  max-height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+}
+
+.teamLogo {
+  width: 430px;
+  height: auto;
+  margin-top: -100px;
+  border-radius: 30px;
+  filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+  opacity: 1; /* Adjust opacity for fading effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
+
+.mainPageHeading {
+  color: white;
+}
+
+.upto {
+  color: gray;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.apy {
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+  margin-bottom: 15px;
+}
+
+.aprpercentage {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.3em;
+}
+
+.spdBtn {
+  width: 100vw;
+  background: white;
+  color: black;
+  margin-top: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 1em;
+  font-family: "ClashDisplay-Bold";
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 45px;
+}
+
+
+@media (min-width: 450px) {
+  .defaultPageWrapper {
+    margin-top: 10px;
+  }
+  .mainPageHeading {
+    font-size: 40px;
+  }
+
+  .teamLogo {
+    width: 350px;
+    height: auto;
+    margin-top: -80px;
+    filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+    opacity: 1; /* Adjust opacity for fading effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  }
+  .spdBtn {
+    width: 65vw;
+  }
+}
+
+@media (min-width: 600px) {
+  .defaultPageWrapper {
+    margin-top: -15px;
+  }
+  .mainPageHeading {
+    font-size: 50px;
+  }
+
+  .teamLogo {
+    width: 390px;
+    height: auto;
+    margin-top: -100px;
+    border-radius: 30px;
+    filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+    opacity: 1; /* Adjust opacity for fading effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  }
+  .spdBtn {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .defaultPageWrapper {
+    margin-top: -40px;
+  }
+  .mainPageHeading {
+    font-size: 50px;
+  }
+  .spdBtn {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .spdBtn {
+    width: 22vw;
+  }
+}

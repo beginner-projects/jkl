@@ -1,0 +1,254 @@
+.pool {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.8px;
+}
+
+.moneyBag {
+  width: 350px;
+  height: auto;
+  margin-top: 50px;
+  filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+  opacity: 1; /* Adjust opacity for fading effect */
+}
+
+.subTag {
+  color: gray;
+}
+
+.bitcoinBalanceMainDiv,
+.timerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bitcoinBalanceMain {
+  color: white;
+  font-size: 40px;
+  margin-top: -20px;
+  color: rgb(253, 195, 3);
+}
+
+.timerCounter {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 33px;
+  margin-top: -5px;
+}
+
+.timerIcon {
+  width: 40px;
+  height: auto;
+  margin-top: -10px;
+  margin-right: 5px;
+}
+
+.desktopUi {
+  display: none;
+}
+
+@media (min-width: 450px) {
+  .moneyBag {
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+    opacity: 1; /* Adjust opacity for fading effect */
+  }
+
+  .subTag {
+    font-size: 15px;
+  }
+
+  .bitcoinBalanceMain {
+    color: white;
+    font-size: 35px;
+    margin-top: -20px;
+    color: rgb(253, 195, 3);
+  }
+
+  .timerCounter {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    margin-top: -5px;
+  }
+  
+  .timerIcon {
+    width: 35px;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 600px) {
+  .pool {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.8px;
+    margin-top: 80px;
+    margin-left: -55px;
+  }
+
+  .moneyBag {
+    width: 310px;
+    height: auto;
+    margin-top: 20px;
+    filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+    opacity: 1; /* Adjust opacity for fading effect */
+  }
+
+  .subTag {
+    font-size: 15px;
+    margin-top: -60px;
+  }
+
+  .bitcoinBalanceMain {
+    color: white;
+    font-size: 30px;
+    margin-top: -20px;
+    color: rgb(253, 195, 3);
+  }
+
+  .timerCounter {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    margin-top: -5px;
+  }
+  .bitcoinBalanceMainDiv,
+  .timerDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .timerDiv {
+    margin-top: 15px;
+  }
+  .balanceTimerDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .timerIcon {
+    width: 50px;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 5px;
+  }
+  .arrowright {
+    margin-left: -215px;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 900px) {
+  .pool {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.8px;
+    margin-top: 50px;
+    margin-left: -10px;
+  }
+
+  .moneyBag {
+    width: 410px;
+    height: auto;
+    margin-top: 20px;
+    filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+    opacity: 1; /* Adjust opacity for fading effect */
+  }
+
+  .subTag {
+    font-size: 25px;
+    margin-top: -130px;
+  }
+  .bitcoinBalanceMainDiv,
+  .timerDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .timerDiv {
+    margin-top: 15px;
+  }
+  .balanceTimerDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .timerIcon {
+    width: 60px;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 5px;
+  }
+  .arrowright {
+    margin-left: -280px;
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pool {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.8px;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+
+  .moneyBag {
+    width: 610px;
+    height: auto;
+    margin-top: 20px;
+    filter: brightness(100%) blur(0.1px); /* Adjust brightness and blur for fading effect */
+    opacity: 1; /* Adjust opacity for fading effect */
+  }
+
+  .subTag {
+    font-size: 25px;
+    margin-top: -130px;
+  }
+  .bitcoinBalanceMainDiv,
+  .timerDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .timerDiv {
+    margin-top: 15px;
+  }
+  .balanceTimerDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .timerIcon {
+    width: 60px;
+    height: auto;
+    margin-top: -10px;
+    margin-right: 5px;
+  }
+  .arrowright {
+    margin-left: -280px;
+    margin-top: 200px;
+  }
+}

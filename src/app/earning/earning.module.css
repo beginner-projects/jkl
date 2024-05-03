@@ -1,0 +1,185 @@
+.mainWrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greenDiv {
+  display: flex;
+  justify-content: space-between;
+  background: #028c37;
+  width: 78vw;
+  border-radius: 5px;
+  margin-top: 70px;
+  padding-left: 18px;
+}
+
+.pTagOnBoard {
+  font-family: "ClashDisplay-Light";
+}
+
+.h1TagOnBoard {
+  margin-top: -15px;
+  margin-left: -3px;
+}
+
+.flashLogoOnBoard,
+.bitcoinLogoOnBoard {
+  margin-top: -40px;
+}
+
+.dwBtn {
+  padding-bottom: 20px;
+}
+
+.DBtn,
+.WBtn {
+  background: yellow;
+  font: 900;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+.orangeDiv {
+  display: flex;
+}
+
+.orangeDiv {
+  display: flex;
+  justify-content: space-between;
+  background: #fd5934;
+  width: 78vw;
+  border-radius: 5px;
+  margin-top: 70px;
+  padding-left: 18px;
+}
+
+.footerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* --------------------------------------------------------------- reponsive */
+
+/* @media (min-width: 450px) {
+  body {
+    width: 100%;
+  }
+} */
+
+@media (min-width: 600px) {
+  .greenDiv, .orangeDiv {
+    margin-left: 8px;
+  }
+  .greenDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #028c37;
+    width: 80vw;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding-left: 18px;
+  }
+  .orangeDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #fd5934;
+    width: 80vw;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding-left: 18px;
+  }
+  .pTagOnBoard {
+    font-size: 13px;
+  }
+  .h1TagOnBoard {
+    font-size: 25px;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: 900px) {
+
+  .greenDiv, .orangeDiv {
+    margin-left: 120px;
+  }
+  .greenDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #028c37;
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding-left: 18px;
+  }
+  .orangeDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #fd5934;
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding-left: 18px;
+  }
+  .pTagOnBoard {
+    font-size: 15px;
+  }
+  .h1TagOnBoard {
+    font-size: 30px;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-direction: column;
+    margin-top: -325px;
+    margin-left: -400px;
+    margin-right: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .greenDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #028c37;
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 33px;
+    padding-left: 18px;
+  }
+  .orangeDiv {
+    display: flex;
+    justify-content: space-between;
+    background: #fd5934;
+    width: 50vw;
+    border-radius: 5px;
+    margin-top: 70px;
+    padding-left: 18px;
+  }
+  .pTagOnBoard {
+    font-size: 30px;
+  }
+  .h1TagOnBoard {
+    font-size: 50px;
+  }
+
+  .footerNav {
+    display: flex;
+    flex-direction: column;
+    margin-top: -400px;
+    margin-left: -1100px;
+  }
+}

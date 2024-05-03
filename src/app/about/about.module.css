@@ -1,0 +1,191 @@
+.totalSupply {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.bitcoinBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+  font-size: 25px;
+}
+
+.balanceH3Tag {
+  margin-left: 8px;
+}
+
+.tickerName {
+  margin-left: 5px;
+}
+
+.backBtn {
+  text-align: center;
+  margin-top: -30px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.twitterLogo {
+  margin-right: 15px;
+}
+
+.desktopUISocials,
+.NpxUISocials {
+  display: none;
+}
+
+@media (min-width: 450px) {
+  .totalSupply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+
+  .tokenSupplyImage {
+    width: 450px;
+    height: auto;
+  }
+
+  .backBtn,
+  .socialIcons {
+    display: none;
+  }
+
+  .desktopUISocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+  }
+}
+
+@media (min-width: 600px) {
+  .totalSupply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
+  .tokenSupplyImage {
+    width: 400px;
+    height: auto;
+  }
+
+  .burnImageDiv {
+    width: 48px;
+    height: auto;
+  }
+
+  .socialIcons {
+    display: none;
+  }
+
+  .backBtn {
+    display: none;
+  }
+
+  .desktopUISocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+  }
+}
+
+@media (min-width: 900px) {
+  .Circlewrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: -20px;
+  }
+
+  .totalSupply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -10px;
+  }
+
+  .tokenSupplyImage {
+    width: 580px;
+    height: auto;
+  }
+
+  .burnImageDiv {
+    width: 48px;
+    height: auto;
+  }
+
+  .bitcoinBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 23px;
+  }
+
+  .desktopUISocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -450px;
+    margin-left: 380px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Circlewrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+
+  .totalSupply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+  }
+
+  .tokenSupplyImage {
+    width: 760px;
+    height: auto;
+  }
+
+  .burnImageDiv {
+    width: 60px;
+    height: auto;
+  }
+
+  .bitcoinBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 50px;
+  }
+
+  .desktopUISocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -450px;
+    margin-left: 250px;
+  }
+}
+
+/* 9638792498 (boy) */

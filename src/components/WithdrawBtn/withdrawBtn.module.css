@@ -1,0 +1,114 @@
+/* CSS */
+.withdrawBtn {
+  appearance: button;
+  background-color: #fed71a;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 50%;
+}
+
+.withdrawBtn:after {
+  background-clip: padding-box;
+  background-color: #f949b2;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.withdrawBtn:main,
+.withdrawBtn:focus {
+  user-select: auto;
+}
+
+.withdrawBtn:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.metamaskLink {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 450px) {
+  .withdrawBtn {
+    appearance: button;
+    background-color: #fed71a;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 10px 10px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter 0.2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 40%;
+  }
+}
+
+@media (min-width: 600px) {
+  .withdrawBtn {
+    width: 40%;
+    font-size: 20px;
+    padding: 13px 16px;
+  }
+}
+
+@media (min-width: 900px) {
+  .withdrawBtn {
+    width: 30%;
+    font-size: 20px;
+    padding: 13px 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .withdrawBtn {
+    width: 20%;
+    font-size: 20px;
+    padding: 16px 19px;
+  }
+}
